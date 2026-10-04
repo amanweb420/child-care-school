@@ -74,7 +74,7 @@ a {
             rgba(5,48,78,0.55),
             rgba(5,48,78,0.15)
         ),
-        url("hero-school.jpg.png");
+        url("images/hero-school.jpg.png");
 
     background-size: cover;
     background-position: center;
@@ -554,7 +554,7 @@ footer > p {
                 rgba(5,48,78,0.72),
                 rgba(5,48,78,0.72)
             ),
-            url("hero-school.jpg.png");
+            url("images/hero-school.jpg.png");
         background-size: cover;
         background-position: center;
     }
