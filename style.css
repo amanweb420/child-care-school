@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f9ff;
+    color: #263238;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+header h2 {
+    color: #1261a0;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #263238;
+    font-weight: bold;
+}
+
+/* Hero */
+#home {
+    min-height: 520px;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background:
+        linear-gradient(
+            rgba(10, 73, 115, 0.72),
+            rgba(10, 73, 115, 0.72)
+        ),
+        url("images/school.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#home div {
+    max-width: 750px;
+}
+
+#home p:first-child {
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffd166;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+#home h3 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+#home a,
+#admission a {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 12px 22px;
+    background: #ffb703;
+    color: #17202a;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* General Sections */
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section > h2 {
+    text-align: center;
+    color: #1261a0;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* Features */
+section:nth-of-type(2) {
+    text-align: center;
+}
+
+section:nth-of-type(2) > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 30px;
+}
+
+section:nth-of-type(2) > div > div {
+    background: white;
+    padding: 25px 15px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+section:nth-of-type(2) h3 {
+    color: #1261a0;
+    margin-bottom: 8px;
+}
+
+/* About */
+#about {
+    background: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#about p {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Classes */
+#classes {
+    text-align: center;
+}
+
+#classes > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+}
+
+#classes h3 {
+    background: white;
+    padding: 25px 10px;
+    border-radius: 15px;
+    color: #1261a0;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+    border-bottom: 4px solid #ffb703;
+}
+
+/* Admission */
+#admission {
+    background: #1261a0;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#admission h2 {
+    color: white;
+}
+
+#admission a {
+    margin-top: 20px;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin: 8px;
+}
+
+/* Footer */
+footer {
+    background: #102a43;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+footer p {
+    color: #d9e2ec;
+    margin-top: 8px;
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    #home {
+        min-height: 500px;
+    }
+
+    #home h1 {
+        font-size: 36px;
+    }
+
+    #home h3 {
+        font-size: 19px;
+    }
+
+    section {
+        padding: 45px 15px;
+    }
+
+    section:nth-of-type(2) > div {
+        grid-template-columns: 1fr;
+    }
+
+    #classes > div {
+        grid-template-columns: 1fr;
+    }
+}
