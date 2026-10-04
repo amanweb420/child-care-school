@@ -58,7 +58,7 @@ nav a {
             rgba(10, 73, 115, 0.72),
             rgba(10, 73, 115, 0.72)
         ),
-        url("images/school.jpg");
+       url("school.jpg") ;
 
     background-size: cover;
     background-position: center;
