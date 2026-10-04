@@ -67,14 +67,9 @@ a {
     display: flex;
     align-items: center;
 
-    background:
-        linear-gradient(
-            90deg,
-            rgba(5,48,78,0.90),
-            rgba(5,48,78,0.55),
-            rgba(5,48,78,0.15)
-        ),
-        url("images/hero-school.jpg.png");
+    background-image: url("images/hero-school.jpg.png");
+background-size: cover;
+background-position: center;
 
     background-size: cover;
     background-position: center;
