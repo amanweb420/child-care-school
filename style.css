@@ -75,9 +75,11 @@ background-position: center;
 
     color: white;
 }
-
 .hero-content {
     max-width: 650px;
+    transform: translateY(60px);
+}
+
 }
 
 .welcome {
