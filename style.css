@@ -369,6 +369,9 @@ background-position: center;
 .activity-photo {
     text-align: center;
 }
+.activity-photo h3 {
+    text-align: center;
+}
 .activity-preview-grid {
     max-width: 1100px;
     margin: auto;
