@@ -647,7 +647,18 @@ background-repeat: no-repeat;
     .activity-grid {
         grid-template-columns: 1fr;
     }
+.activity-preview-grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+}
 
+.activity-photo {
+    text-align: center;
+}
+
+.activity-photo h3 {
+    text-align: center;
+}
     .about-preview {
         margin: 10px;
         padding: 30px 20px;
