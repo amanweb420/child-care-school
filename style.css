@@ -512,18 +512,19 @@ background-position: center;
     transform: translateY(-8px);
     box-shadow: 0 12px 30px rgba(18, 97, 160, 0.18);
 }
-
 .contact-card:first-child > div {
-    background: #eaf5ff;
-    width: 65px;
-    height: 65px;
-    margin: 0 auto 12px;
+    background: linear-gradient(135deg, #1261a0, #48a9e6);
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    font-size: 32px;
+    font-size: 34px;
+    box-shadow: 0 8px 20px rgba(18, 97, 160, 0.25);
 }
+
 
 .contact-card:first-child h3 {
     color: #1261a0;
