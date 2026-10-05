@@ -938,3 +938,228 @@ margin: 10px 0 18px;
 color: #e5f3fa;
 margin-bottom: 14px;
 }
+/* ================= SCHOOL PHOTOS ================= */
+
+.about-school-photos {
+padding: 75px 6%;
+background: #f5f9ff;
+}
+
+.about-photo-grid {
+max-width: 1100px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+}
+
+.about-photo-card {
+background: white;
+padding: 12px;
+border-radius: 20px;
+text-align: center;
+box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+transition: 0.3s;
+overflow: hidden;
+}
+
+.about-photo-card:hover {
+transform: translateY(-7px);
+}
+
+.about-photo-card img {
+width: 100%;
+height: 240px;
+object-fit: cover;
+border-radius: 15px;
+}
+
+.about-photo-card h3 {
+color: #1261a0;
+margin: 14px 5px 8px;
+}
+
+/* ================= SCHOOL VIDEOS ================= */
+
+.about-school-videos {
+padding: 75px 6%;
+background: #eef7ff;
+}
+
+.about-video-grid {
+max-width: 1000px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 25px;
+}
+
+.about-video-card {
+background: white;
+padding: 12px;
+border-radius: 20px;
+text-align: center;
+box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.about-video-card video {
+width: 100%;
+height: 280px;
+object-fit: cover;
+border-radius: 15px;
+background: #102a43;
+}
+
+.about-video-card h3 {
+color: #1261a0;
+margin: 14px 5px 8px;
+}
+
+/* ================= ADMISSION CTA ================= */
+
+.about-admission {
+margin: 35px 6%;
+padding: 55px 6%;
+border-radius: 25px;
+background: #1261a0;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+}
+
+.about-admission > div:first-child {
+max-width: 650px;
+}
+
+.about-admission span {
+color: #ffd43b;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.about-admission h2 {
+font-size: 34px;
+margin: 8px 0;
+}
+
+.about-admission p {
+color: #e1eff8;
+}
+
+.about-admission-buttons {
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+/* ================= ABOUT MOBILE ================= */
+
+@media (max-width: 900px) {
+
+.about-main {
+    grid-template-columns: 1fr;
+}
+
+.why-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-video-grid {
+    grid-template-columns: 1fr;
+}
+
+.about-admission {
+    flex-direction: column;
+    text-align: center;
+}
+
+}
+
+@media (max-width: 600px) {
+
+.about-hero {
+    min-height: 320px;
+    padding: 55px 20px;
+}
+
+.about-hero-content h1 {
+    font-size: 36px;
+}
+
+.about-hero-content p {
+    font-size: 16px;
+}
+
+.notice-content {
+    padding: 25px 18px;
+}
+
+.notice-content h2 {
+    font-size: 26px;
+}
+
+.notice-text {
+    font-size: 16px;
+}
+
+.about-main {
+    margin: 25px 10px;
+    padding: 30px 20px;
+}
+
+.about-main-image img {
+    height: 260px;
+}
+
+.about-main-content h2 {
+    font-size: 29px;
+}
+
+.vision-mission {
+    padding: 55px 20px;
+}
+
+.vision-mission-grid {
+    grid-template-columns: 1fr;
+}
+
+.why-grid {
+    grid-template-columns: 1fr;
+}
+
+.about-photo-grid {
+    grid-template-columns: 1fr;
+}
+
+.about-photo-card img {
+    height: 250px;
+}
+
+.about-school-videos {
+    padding: 55px 20px;
+}
+
+.about-video-card video {
+    height: 230px;
+}
+
+.about-admission {
+    margin: 20px 10px;
+    padding: 40px 20px;
+}
+
+.about-admission h2 {
+    font-size: 27px;
+}
+
+.about-admission-buttons {
+    justify-content: center;
+}
+
+}
