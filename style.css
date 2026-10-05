@@ -364,7 +364,11 @@ background-position: center;
     color: #687783;
     font-size: 14px;
 }
+/* ================= HOME ACTIVITY PHOTOS ================= */
 
+.activity-photo {
+    text-align: center;
+}
 
 /* ================= VIDEO ================= */
 
