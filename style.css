@@ -551,8 +551,10 @@ footer > p {
                 rgba(5,48,78,0.72)
             ),
             url("images/hero-school.jpg.png");
-        background-size: cover;
-        background-position: center;
+    background-size: 100% auto;
+background-position: center top;
+background-repeat: no-repeat;
+
     }
 
     .hero h1 {
